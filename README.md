@@ -1,4 +1,4 @@
-# Alipay2Moneywiz
+# Bill2Moneywiz
 
 ## 项目简介
 
