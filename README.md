@@ -13,14 +13,29 @@
 - **日期格式化**：仅保留交易日期，去除时间部分
 - **灵活输出**：支持自定义输出文件路径，默认生成在输入文件同目录下
 
+## 账单获取
+
+在使用本工具前，您需要先从支付宝或微信导出账单CSV文件：
+
+- **支付宝账单获取**（手机端）：[查看详细步骤](https://docs.qianjiapp.com/other/import_guide_alipay_app.html)
+- **微信账单获取步骤**：[查看详细步骤](https://docs.qianjiapp.com/other/import_guide_weixin.html)
+
+导出的账单文件通常为CSV格式，可直接用于本工具处理。
+
 ## 使用方法
 
 ### 1. 安装依赖
 
-本项目依赖 `chardet` 库用于自动检测文件编码：
+本项目依赖 `chardet` 库用于自动检测文件编码。可以使用以下命令安装依赖：
 
 ```bash
-pip install chardet
+pip install -r requirements.txt
+```
+
+或者直接安装：
+
+```bash
+pip install chardet==5.2.0
 ```
 
 ### 2. 命令行使用
